@@ -23,9 +23,18 @@ pragma solidity ^0.8.19;
 
 /**
  * Now lets define a contract named SimpleStorage
+ * contract is a keyword in solidity that tells the solidity that 
+ * the next pieces of code is going to be a contract
+ * You can think of a contract similar to a class in any
+ * Oject Oriented Programming like Java or Javascript
  */
 
-contract Name {
+contract SimpleStorage { 
+    /**
+     * Everything inside this curly brackets is going to be the contents
+     * of this contract SimpleStorage
+     */
+
     constructor() {
         
     }
