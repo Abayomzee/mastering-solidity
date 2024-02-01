@@ -48,7 +48,7 @@ contract SimpleStorage {
         read the blockchain state, they are VIEW and PURE,
         this functions disallows any modification of state,
         In addition, pure functions dont even allow to read
-        from the blockchain, an example is written below
+        from the blockchain, an example is written below.
         */
         return favoriteNumber;
      }
